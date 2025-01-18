@@ -8,11 +8,13 @@ Ans. Some question I think should be asked are (1) What is the currently used cl
 3. Produce a RACI matrix for the migration stakeholders.
 Ans. 
 
+
 4. Describe the most likely migration approach that will suit the chosen company.
 Ans. Most likely migration approach would be Phased migration. To describe it in steps the process will be (1) analysis of currently used infrastructure, workloads for identifying the dependencies. (2) Pilot migration - That will be migrating any small department or non-critical application for validation and identification of potential challenges. (3) Rollout with Incremental approach - Migrating all the workloads and application in phases making sure it do not distrupts the company's ongoing operations. (4) Hybrid environment - For seamless integration of worloads and cloud systems during the transition period. (5) Optimization - Verifying the post-migration cloud resources and AI Services meeting the company requirements.
 
 5. Produce a high level schedule for the migration process.
 Ans.
+![]("C:\Cloud Development\Ans5.png")
 
-6. What are the main decision criteria for the chosen company?
+7. What are the main decision criteria for the chosen company?
 Ans. Main decision criteria foe the migration would be (1) Security & Privacy. (2) Scalability and Convenience. (3) Cost Efficient. (4) Employee empowerment. (5) Strategic partnership and (6) Integration capabilities.
