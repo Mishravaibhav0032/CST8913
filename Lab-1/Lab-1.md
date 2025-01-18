@@ -9,7 +9,7 @@ Ans. Some question I think should be asked are (1) What is the currently used cl
 Ans. markdown
 
      | Activity	             | Responsible	      | Accountable	          | Consulted	           | Informed            |
-     -----------------------------------------------------------------------------------------------------| ------------------- |
+     | ------------------------- | -------------------- | --------------------- | ----------------------- | ------------------- |
      | Define Migration Goals	   | IT Leadership Team	 | Manager, Digital Tech	| Microsoft Consultants	 | All Employees       |
      | Infrastructure Assessment | IT Team	           | IT Leadership Team	| External Auditors	      | Business Unit Heads |
      | Develop Migration Plan	   | Project Manager	 | IT Leadership Team    | Microsoft Consultants	 | Employees           |
