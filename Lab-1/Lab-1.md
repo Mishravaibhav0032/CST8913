@@ -22,9 +22,10 @@ Ans. markdown
 Ans. Most likely migration approach would be Phased migration. To describe it in steps the process will be (1) analysis of currently used infrastructure, workloads for identifying the dependencies. (2) Pilot migration - That will be migrating any small department or non-critical application for validation and identification of potential challenges. (3) Rollout with Incremental approach - Migrating all the workloads and application in phases making sure it do not distrupts the company's ongoing operations. (4) Hybrid environment - For seamless integration of worloads and cloud systems during the transition period. (5) Optimization - Verifying the post-migration cloud resources and AI Services meeting the company requirements.
 
 5. Produce a high level schedule for the migration process.
-Ans.
+Ans. markdown
+
 | Phase	               | Timeline     | Key Activities                                                                        |
----------------------------------------------------------------------------------------------------------------------------------
+| ---------------------- | ------------ | ------------------------------------------------------------------------------------- |
 | Preparation	          | 0-1 Month    | Establish a migration team, specify goals, and evaluate the infrastructure.           | 
 | Planning	          | 2-3 Months   | Complete the RACI matrix, create a migration roadmap, and establish governance.       |
 | Pilot Migration        | 4-5 Months   | Move a low-risk workload, check the outcomes, and improve the strategy.               |
