@@ -6,10 +6,10 @@ Ans. According to me some of the reasons which made the heineken company to move
 Ans. Some question I think should be asked are (1) What is the currently used cloud-based system? (2) Which workloads are most crutical for migration? (3) What is the current bandwidth and Network Topology requriements for cloud migration? (4) What are the primary roles and responsibilities of the users in context to IT systems? (5) What is the budget allocation for the migration project?
 
 3. Produce a RACI matrix for the migration stakeholders.
-Ans.
+Ans. markdown
 
-     | Activity	             | Responsible	       | Accountable	     | Consulted	           | Informed            |
-     ----------------------------------------------------------------------------------------------------------------------------
+     | Activity	             | Responsible	      | Accountable	          | Consulted	           | Informed            |
+     -----------------------------------------------------------------------------------------------------| ------------------- |
      | Define Migration Goals	   | IT Leadership Team	 | Manager, Digital Tech	| Microsoft Consultants	 | All Employees       |
      | Infrastructure Assessment | IT Team	           | IT Leadership Team	| External Auditors	      | Business Unit Heads |
      | Develop Migration Plan	   | Project Manager	 | IT Leadership Team    | Microsoft Consultants	 | Employees           |
