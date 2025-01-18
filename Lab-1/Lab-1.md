@@ -8,7 +8,7 @@ Ans.
 Some question I think should be asked are (1) What is the currently used cloud-based system? (2) Which workloads are most crutical for migration? (3) What is the current bandwidth and Network Topology requriements for cloud migration? (4) What are the primary roles and responsibilities of the users in context to IT systems? (5) What is the budget allocation for the migration project?
 
 3. Produce a RACI matrix for the migration stakeholders.
-Ans. markdown
+Ans. 
 
      | Activity	             | Responsible	      | Accountable	          | Consulted	           | Informed            |
      | ------------------------- | -------------------- | --------------------- | ----------------------- | ------------------- |
@@ -25,7 +25,7 @@ Ans.
 Most likely migration approach would be Phased migration. To describe it in steps the process will be (1) analysis of currently used infrastructure, workloads for identifying the dependencies. (2) Pilot migration - That will be migrating any small department or non-critical application for validation and identification of potential challenges. (3) Rollout with Incremental approach - Migrating all the workloads and application in phases making sure it do not distrupts the company's ongoing operations. (4) Hybrid environment - For seamless integration of worloads and cloud systems during the transition period. (5) Optimization - Verifying the post-migration cloud resources and AI Services meeting the company requirements.
 
 5. Produce a high level schedule for the migration process.
-Ans. markdown
+Ans. 
 
 | Phase	               | Timeline     | Key Activities                                                                        |
 | ---------------------- | ------------ | ------------------------------------------------------------------------------------- |
