@@ -22,7 +22,9 @@ DESCRIPTION :- Paas will provide us a managed platform for deploying our applica
 STEP BY STEP DEPLOYMENT :- 
 
 (1) Deploying flask Backend :- Using a Paas service such as AWS Elastic Beanstalk the deployment of flask application will take place. The AWS Elastic Beanstalk will help to complete task like load balancing,scaling and runtime configuring etc.
+
 (2) Hosting React UI :- Here I will be using a static hosting service to deploy the React frontend such as AWS S3 with CloudFront for faster global delivery.
+
 (3) Database Setup :- A fully managed database service such as AWS RDS for PostgreSQL will be used by me which will provide services such as scaling,backups and high availability.
 
 3. For each case, draw a diagram that represents the target architecture and describe each of the chosen cloud components.
