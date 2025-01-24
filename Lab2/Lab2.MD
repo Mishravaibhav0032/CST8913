@@ -16,7 +16,8 @@ STEP BY STEP DEPLOYMENT :-
 (2) Configuration of a security group and firewall rules will be done to allow access of some specific ports such as port80 for HTTP,port5432 for Postgres and so on.
 
 (3) Storage Setup :- 
---> Attaching a determined storage volume example AWS EBS Persistent Disk to the postgres VM to make sure data do retain on the machine even if the VM gets restart.
+
+Attaching a determined storage volume example AWS EBS Persistent Disk to the postgres VM to make sure data do retain on the machine even if the VM gets restart.
 
 2. Describe how this application can be deployed in the cloud using PaaS infrastructure.
 
@@ -31,4 +32,4 @@ STEP BY STEP DEPLOYMENT :-
 (3) Database Setup :- A fully managed database service such as AWS RDS for PostgreSQL will be used by me which will provide services such as scaling,backups and high availability.
 
 3. For each case, draw a diagram that represents the target architecture and describe each of the chosen cloud components.
-Answer :-
+
