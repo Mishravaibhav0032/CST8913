@@ -1,4 +1,4 @@
-Lab - 2 :- IaaS/PaaS architecture
+<title> Lab - 2 :- IaaS/PaaS architecture </title>
 
 1. Describe how this application can be deployed in the cloud using IaaS infrastructure.
 Answer :-   
