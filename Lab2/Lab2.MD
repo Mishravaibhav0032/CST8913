@@ -1,3 +1,15 @@
 Lab - 2 :- IaaS/PaaS architecture
 1. Describe how this application can be deployed in the cloud using IaaS infrastructure.
-Answer :-   Iaas supports to take different virtualized computing resources such as storage,servers and networks on rent. I will install,configure and maintain everything which includes OS and middleware over infrastructure. So in this deployment I will use Flask,React and Postgres on Virtual Machines according to the task.
+Answer :-   
+DESCRIPTION :- Iaas supports to take different virtualized computing resources such as storage,servers and networks on rent. I will install,configure and maintain everything which includes OS and middleware over infrastructure. So in this deployment I will use Flask,React and Postgres on Virtual Machines according to the task. 
+
+STEP BY STEP DEPLOYMENT :- 
+
+(1) Infrastructure Setup :- Creation of VMs for each components :- (1) Flask - To run the backend application dedicated VM will be made for it which will act as an Web Server. (2) Postgres - Another creation will be done for the required storage with Database integrity. (3) React - Deploying React on another VM for the UI Frontend. --> Ensuring that all VMs are at the same dedicated Networks for better interactions between components.
+
+(2) Network Setup :- 
+(1) Setting up a load balancer which will distribute the traffic among flask instances if scaling is needed.
+(2) Configuration of a security group and firewall rules will be done to allow access of some specific ports such as port80 for HTTP,port5432 for Postgres and so on.
+
+(3) Storage Setup :- 
+--> Attaching a determined storage volume example AWS Persistent Disk to the postgres VM to make sure data do retain on the machine even if the VM gets restart.
