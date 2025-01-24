@@ -25,3 +25,5 @@ STEP BY STEP DEPLOYMENT :-
 (2) Hosting React UI :- Here I will be using a static hosting service to deploy the React frontend such as AWS S3 with CloudFront for faster global delivery.
 (3) Database Setup :- A fully managed database service such as AWS RDS for PostgreSQL will be used by me which will provide services such as scaling,backups and high availability.
 
+3. For each case, draw a diagram that represents the target architecture and describe each of the chosen cloud components.
+Answer :-
