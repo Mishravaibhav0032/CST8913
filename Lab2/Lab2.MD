@@ -61,9 +61,3 @@ Diagram For PAAS :-
                                                           |
 
                                                 Managed Postgres Database
-
-
-
-
-
-
