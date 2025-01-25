@@ -32,4 +32,16 @@ STEP BY STEP DEPLOYMENT :-
 (3) Database Setup :- A fully managed database service such as AWS RDS for PostgreSQL will be used by me which will provide services such as scaling,backups and high availability.
 
 3. For each case, draw a diagram that represents the target architecture and describe each of the chosen cloud components.
+       Internet
+                          |
+                +-------------------+
+                |    Load Balancer  |
+                +-------------------+
+                          |
+        +----------------------------+
+        |                            |
+  Flask VM                     React UI VM
+       |                              |
+ Postgres VM (with Persistent Storage)
+
 
