@@ -40,6 +40,9 @@ STEP BY STEP DEPLOYMENT :-
                                                             |
                                                 -------------------------
                                                 |                       |
+                                             
                                              Flask VM              React UI VM
+                                               
                                                 |                       |
+
                                             Postgres VM 
