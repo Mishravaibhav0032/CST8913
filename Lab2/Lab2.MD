@@ -33,20 +33,13 @@ STEP BY STEP DEPLOYMENT :-
 
 3. For each case, draw a diagram that represents the target architecture and describe each of the chosen cloud components.
       
-                     Internet
-                          
-                          |
-               
-                +-------------------+
-                |    Load Balancer  |
-                +-------------------+
-                        
-                          |
-        +---------------------------------+
-        |                                 |
-  Flask VM                           React UI VM
-
-        |                                  |
-Postgres VM (with Persistent Storage)
-
-
+                                                        Internet 
+                                                            |
+                                                 -----------------------
+                                                      Load balancing 
+                                                            |
+                                                -------------------------
+                                                |                       |
+                                             Flask VM              React UI VM
+                                                |                       |
+                                            Postgres VM 
