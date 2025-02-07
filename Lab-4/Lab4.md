@@ -50,7 +50,7 @@ Step 2: Configuration of Load Balancers
 	<ul>-> Health Checks for the availability of web servers.</ul> 
 <li>Using Local Load Balancers in each region to distribute traffic across multiple web servers.</li>
 <p></p>
-Step 3: Database Replication and Failover Implementation Configure SQL Database Replication: AWS RDS Multi-AZ, Azure SQL Geo-Replication. 
-<p></p>
+Step 3: Database Replication and Failover Implementation Configure SQL Database Replication: <p></p>
+<li>AWS RDS Multi-AZ, Azure SQL Geo-Replication.</li>
 <li>Creating an automatic failover mechanism for the SQLVM.</li>
 <li>Testing failovers to make sure of seamless switching between primary and secondary databases.</li>
