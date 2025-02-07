@@ -35,7 +35,7 @@
 <p></p>
 <b>3. Migration Steps :-</b>
 <p></p>
-<b>The migration will be performed in the following key stages:</b>
+<b>The migration will be performed in the following key stages :-</b>
 <p></p>
 Step 1 : Replication of Virtual Machines Across Regions :-
 <p></p>
