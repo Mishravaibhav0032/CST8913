@@ -1,7 +1,9 @@
 <h1>High-Level Design (HLD) Document: Multi-Region Deployment with Load Balancing :- </h1>
-1. Solution Diagram :-
+<b>1. Solution Diagram :-</b>
 
-2. Target Architecture Description :-
+
+
+<b>2. Target Architecture Description :-</b>
 
 <li>The application must be highly available and fault-tolerant through multi-region deployment by employing load balancers and database replication.</li>
 
@@ -31,7 +33,7 @@
 <li>Database Replication: Ensures data availability and consistency.</li>
 <li>Automatic Failover: This minimizes the chances of downtown by automatically switching over to the secondary region during outages.</li>
 
-3. Migration Steps :-
+<b>3. Migration Steps :-</b>
 
 <b>The migration will be performed in the following key stages:</b>
 
