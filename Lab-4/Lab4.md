@@ -38,19 +38,19 @@
 <b>The migration will be performed in the following key stages:</b>
 <p></p>
 Step 1: Replication of Virtual Machines Across Regions
-
+<p></p>
 <li>Creating a cloud-based VM replication service - AWS Application Migration Service or Azure Site Recovery.</li>
 <li>Enabling real-time replication for WebServerVM and SQLVM to the secondary region.</li>
 <li>Testing failover by simulating a regional outage.</li>
 <p></p>
 Step 2: Configuration of Load Balancers
-
+<p></p>
 <li>Deploying a Global Load Balancer - AWS Route 53, Azure Traffic Manager - with routing policies :-</li><p></p>
 	<ul>-> Primary Region Routing: US-East as primary, US-West as failover.</ul>
 	<ul>-> Health Checks for the availability of web servers.</ul> 
 <li>Using Local Load Balancers in each region to distribute traffic across multiple web servers.</li>
 <p></p>
 Step 3: Database Replication and Failover Implementation Configure SQL Database Replication: AWS RDS Multi-AZ, Azure SQL Geo-Replication. 
-
+<p></p>
 <li>Creating an automatic failover mechanism for the SQLVM.</li>
 <li>Testing failovers to make sure of seamless switching between primary and secondary databases.</li>
