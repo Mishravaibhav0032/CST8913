@@ -1,7 +1,7 @@
 <h1>High-Level Design (HLD) Document: Multi-Region Deployment with Load Balancing :- </h1>
 1. Solution Diagram :-
-
 2. Target Architecture Description :-
+
 <li>The application must be highly available and fault-tolerant through multi-region deployment by employing load balancers and database replication.</li>
 
 (1) Multi-Region Deployment:-
