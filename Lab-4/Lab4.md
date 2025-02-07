@@ -1,6 +1,6 @@
 <h1>High-Level Design (HLD) Document: Multi-Region Deployment with Load Balancing :- </h1>
-<b>1. Solution Diagram :-</b>
-<p></p>
+<b>1. Solution Diagram :-</b><p></p>
+
 ![Image](https://github.com/user-attachments/assets/050e53cb-b1f8-4736-8fe6-588be3f729bc)
 
 <b>2. Target Architecture Description :-</b>
