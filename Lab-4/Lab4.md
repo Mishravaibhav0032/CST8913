@@ -2,7 +2,7 @@
 1. Solution Diagram :-
 
 2. Target Architecture Description :-
-The application must be highly available and fault-tolerant through multi-region deployment by employing load balancers and database replication.
+<li>The application must be highly available and fault-tolerant through multi-region deployment by employing load balancers and database replication.</li>
 
 (1) Multi-Region Deployment:-
 
