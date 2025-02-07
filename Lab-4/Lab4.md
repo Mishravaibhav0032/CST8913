@@ -32,7 +32,7 @@
 <li>Load Balancers: These ensure traffic distribution and avoid single-point failures.</li>
 <li>Database Replication: Ensures data availability and consistency.</li>
 <li>Automatic Failover: This minimizes the chances of downtown by automatically switching over to the secondary region during outages.</li>
-
+<p></p>
 <b>3. Migration Steps :-</b>
 
 <b>The migration will be performed in the following key stages:</b>
