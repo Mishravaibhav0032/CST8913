@@ -1,4 +1,7 @@
-## Cloud Resource Comparison Table
+
+<h1> Cloud Resource Comparison Across AWS, Azure, and Google Cloud. </h1>
+
+<h1>Cloud Resource Comparison Table</h1>
 
 | #  | Description                                                                                              | AWS Service Name              | Azure Service Name                 | Google Cloud Service Name       |
 |----|----------------------------------------------------------------------------------------------------------|--------------------------------|------------------------------------|---------------------------------|
