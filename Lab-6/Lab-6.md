@@ -121,3 +121,9 @@ An added benefit is Infrastructure as Code (IaC) :-<br></br>
 
  - Terraform was used to implement IaC and automate the refactored application's deployment.<br></br>
  - Terraform scripts can be found in this repository's infrastructure subdirectory.<br></br>
+
+References :- <br></br>
+<br></br>(1) SyntaxC. (n.d.). Azure App Service documentation - Azure App Service. Microsoft Learn. https://learn.microsoft.com/en-us/azure/app-service/
+<br></br>(2) Ggailey. (n.d.). Azure Functions documentation. Microsoft Learn. https://learn.microsoft.com/en-us/azure/azure-functions/
+<br></br>(3) MashaMSFT. (n.d.). Azure SQL Database documentation - Azure SQL. Microsoft Learn. https://learn.microsoft.com/en-us/azure/azure-sql/database/?view=azuresql
+<br></br>(4) Bwren. (n.d.). Azure Monitor documentation - Azure Monitor. Microsoft Learn. https://learn.microsoft.com/en-us/azure/azure-monitor/
