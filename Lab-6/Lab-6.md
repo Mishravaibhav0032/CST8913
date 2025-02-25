@@ -1,26 +1,27 @@
 <h1>Cloud-Native Refactoring of a Monolithic Application on Azure</h1>
 
 Overview :-
-
+<br></br>
 Refurbish a monolithic web application that was developed years back on Windows Server 2019 as the VM within Azure to a newer cloud-native application. Minimize the cost with enhanced scalability and dependability with ease of management through use of Azure Services such as Azure App Service, Azure Functions, Azure SQL Database, and Azure Storage.
 
 
+The original architecture :- <br></br>
 
-The original architecture :-
 One Windows Server 2019 virtual machine (VM) in Azure hosts the application, which is a monolithic web application.  
+<br></br>
+(1) The frontend : is an IIS-hosted web application that makes up the architecture.<br></br>
+(2) The backend : is a single program that manages database interactions and business logic.<br></br>
+(3) Database : The same virtual machine hosts SQL Server.<br></br>
+(4) Static Content : Locally stored within the virtual machine.<br></br>
+(5) Background Tasks : Managed by the virtual machine's scheduled tasks or Windows services.<br></br>
 
-(1) The frontend : is an IIS-hosted web application that makes up the architecture.
-(2) The backend : is a single program that manages database interactions and business logic.
-(3) Database : The same virtual machine hosts SQL Server.
-(4) Static Content : Locally stored within the virtual machine.
-(5) Background Tasks : Managed by the virtual machine's scheduled tasks or Windows services.
 
+Challenges :-<br></br>
 
-Challenges :-
-- Scalability : It is difficult to scale each component due to the monolithic design.
-- Resilience : There is a single point of failure because the VM is hosting the application and database.
-- Maintainability : The attached components are difficult to debug and update.
-- Cost : Operating a VM 24/7 very expensive, particularly for non-mission-critical workloads.
+- Scalability : It is difficult to scale each component due to the monolithic design.<br></br>
+- Resilience : There is a single point of failure because the VM is hosting the application and database.<br></br>
+- Maintainability : The attached components are difficult to debug and update.<br></br>
+- Cost : Operating a VM 24/7 very expensive, particularly for non-mission-critical workloads.<br></br>
 
 
 
