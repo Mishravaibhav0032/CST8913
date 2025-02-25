@@ -104,8 +104,8 @@ Optimization of Costs :
 
 Lessons Acquired :
 
- - Decoupling Components: Scalability and maintainability were enhanced by dismantling the monolithic application.
- - Managed Services: Operational overhead was decreased by utilizing Azure Functions and Azure SQL Database.
+ - Decoupling Components : Scalability and maintainability were enhanced by dismantling the monolithic application.
+ - Managed Services : Operational overhead was decreased by utilizing Azure Functions and Azure SQL Database.
 
 Savings on costs : 
 
@@ -113,9 +113,9 @@ Savings on costs :
 
 Readings :
 
- - Database Migration: It was difficult to guarantee data consistency throughout the migration.
- - Reworking Legacy Code: The monolithic program needed extensive reworking because several of its components were closely connected.
- - Learning Curve: It required some time to become acquainted with Azure services and their setups.
+ - Database Migration : It was difficult to guarantee data consistency throughout the migration.
+ - Reworking Legacy Code : The monolithic program needed extensive reworking because several of its components were closely connected.
+ - Learning Curve : It required some time to become acquainted with Azure services and their setups.
 
 An added benefit is Infrastructure as Code (IaC) :-
 
