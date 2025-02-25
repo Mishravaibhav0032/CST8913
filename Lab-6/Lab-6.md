@@ -35,7 +35,7 @@ The following Azure services are used to rework the application into a cloud-nat
 
 Diagram of Refactored Architecture :- <br></br>
 
-https://github.com/Mishravaibhav0032/CST8913/blob/main/Lab-6/Diagram.md
+
 
 Refactoring Technique :- <br></br>
 
