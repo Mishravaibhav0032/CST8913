@@ -24,101 +24,100 @@ Challenges :-<br></br>
 - Cost : Operating a VM 24/7 very expensive, particularly for non-mission-critical workloads.<br></br>
 
 
-
-Refactored Architecture :-
-The following Azure services are used to rework the application into a cloud-native architecture:
- (1) Frontend : Azure App Service is used for hosting.
- (2) Database : Azure SQL Database was used.
- (3) Azure Functions were used to replace the background tasks.
- (4) Logs and static content are kept in Azure Blob Storage.
- (5) Azure AD was used to implement authorization and authentication.
-
-
-Diagram of Refactored Architecture :-
+Refactored Architecture :- <br></br>
+The following Azure services are used to rework the application into a cloud-native architecture :- <br></br>
+ (1) Frontend : Azure App Service is used for hosting.<br></br>
+ (2) Database : Azure SQL Database was used.<br></br>
+ (3) Azure Functions were used to replace the background tasks.<br></br>
+ (4) Logs and static content are kept in Azure Blob Storage.<br></br>
+ (5) Azure AD was used to implement authorization and authentication.<br></br>
 
 
-Refactoring Technique
-
- 1. Dismantle the Application Monolith
-  -Frontend : The user interface layer was divided and put into Azure App Service.
-  -Backend : The business logic was broken down into microservices, each of which was hosted on Azure Functions or Azure App Service.
-  -Database : To improve scalability and managed services, the database was moved to Azure SQL Database.
-
- 2. Decide on Azure Services
- The frontend and backend APIs are hosted by Azure App Service.
- - Azure SQL Database: Takes the place of SQL Server hosted in virtual machines.
- - Azure Functions: Manages event-driven processing and background jobs.
- - Azure Blob Storage: Holds logs and static data, such as papers and photos.
- - Azure AD is in charge of permission and authentication.
-
- 3. Authentication and Authorization : Role-based access control (RBAC) and secure authentication are made possible by the integration of Azure AD.
+Diagram of Refactored Architecture :- <br></br>
 
 
-Steps for Implementation :-
+Refactoring Technique :- <br></br>
 
-First, an Azure App Service plan was created and the frontend was deployed to Azure App Service.
+ 1. Dismantle the Application Monolith<br></br>
+  -Frontend : The user interface layer was divided and put into Azure App Service.<br></br>
+  -Backend : The business logic was broken down into microservices, each of which was hosted on Azure Functions or Azure App Service.<br></br>
+  -Database : To improve scalability and managed services, the database was moved to Azure SQL Database.<br></br>
 
- - Azure App Service was used to deploy the front-end application.
- - Set up SSL certificates and custom domains.
+ 2. Decide on Azure Services<br></br>
+ The frontend and backend APIs are hosted by Azure App Service.<br></br>
+ - Azure SQL Database: Takes the place of SQL Server hosted in virtual machines.<br></br>
+ - Azure Functions: Manages event-driven processing and background jobs.<br></br>
+ - Azure Blob Storage: Holds logs and static data, such as papers and photos.<br></br>
+ - Azure AD is in charge of permission and authentication.<br></br>
 
-2. Convert the database to Azure SQL.
- - The database was exported from the virtual machine-hosted SQL Server.
- - Azure SQL Database was used to import the database.
- - The application's connection strings have been updated to point to the new database.
-
-3. Convert Tasks in the Background to Azure Functions
- - Background tasks in the monolithic application were identified.
- - Azure Functions was used to rewrite the jobs.
- - Configured triggers for the functions, such as timers and queues.
-
-4. Use Azure Blob Storage to store static content and logs.
- - An Azure Storage account was created.
- - In Azure Blob Storage, static content was uploaded.
- - Set up the program to use Blob Storage for log storage.
-
-5. Put Auto-Scaling into Practice: 
- - Azure App Service auto-scaling was set up according to CPU and memory use.
- - Configure Azure Functions scaling rules.
+ 3. Authentication and Authorization : Role-based access control (RBAC) and secure authentication are made possible by the integration of Azure AD.<br></br>
 
 
-6. Set up Monitoring and Logging
- - Azure Monitor and Application Insights have been enabled for the application.
- - Configure alerts for important indicators, such as unsuccessful requests and excessive CPU utilization.
+Steps for Implementation :-<br></br>
+
+First, an Azure App Service plan was created and the frontend was deployed to Azure App Service.<br></br>
+
+ - Azure App Service was used to deploy the front-end application.<br></br>
+ - Set up SSL certificates and custom domains.<br></br>
+
+2. Convert the database to Azure SQL.<br></br>
+ - The database was exported from the virtual machine-hosted SQL Server.<br></br>
+ - Azure SQL Database was used to import the database.<br></br>
+ - The application's connection strings have been updated to point to the new database.<br></br>
+
+3. Convert Tasks in the Background to Azure Functions.<br></br>
+ - Background tasks in the monolithic application were identified.<br></br>
+ - Azure Functions was used to rewrite the jobs.<br></br>
+ - Configured triggers for the functions, such as timers and queues.<br></br>
+
+4. Use Azure Blob Storage to store static content and logs.<br></br>
+ - An Azure Storage account was created.<br></br>
+ - In Azure Blob Storage, static content was uploaded.<br></br>
+ - Set up the program to use Blob Storage for log storage.<br></br>
+
+5. Put Auto-Scaling into Practice. <br></br> 
+ - Azure App Service auto-scaling was set up according to CPU and memory use.<br></br>
+ - Configure Azure Functions scaling rules.<br></br>
 
 
-Testing and Optimization :-
+6. Set up Monitoring and Logging.<br></br>
+ - Azure Monitor and Application Insights have been enabled for the application.<br></br>
+ - Configure alerts for important indicators, such as unsuccessful requests and excessive CPU utilization.<br></br>
 
-Testing Performance :
 
- - Azure Load Testing was used to do load testing.
- - The application's ability to scale automatically under high demand was confirmed.
+Testing and Optimization :-<br></br>
 
-Reliability Testing :
+Testing Performance :<br></br>
 
- - To guarantee resilience, failures were simulated, such as database outages.
- - Azure Functions retry logic was confirmed to function as intended.
+ - Azure Load Testing was used to do load testing.<br></br>
+ - The application's ability to scale automatically under high demand was confirmed.<br></br>
 
-Optimization of Costs :
+Reliability Testing :<br></br>
 
- - Examined Azure Cost Management to find areas where money may be saved.
- - Moved to Azure SQL Database reserved instances.
+ - To guarantee resilience, failures were simulated, such as database outages.<br></br>
+ - Azure Functions retry logic was confirmed to function as intended.<br></br>
 
-Lessons Acquired :
+Optimization of Costs :<br></br>
 
- - Decoupling Components : Scalability and maintainability were enhanced by dismantling the monolithic application.
- - Managed Services : Operational overhead was decreased by utilizing Azure Functions and Azure SQL Database.
+ - Examined Azure Cost Management to find areas where money may be saved.<br></br>
+ - Moved to Azure SQL Database reserved instances.<br></br>
 
-Savings on costs : 
+Lessons Acquired :<br></br>
 
- - Costs were greatly decreased by switching to a pay-as-you-go basis using Azure services.
+ - Decoupling Components : Scalability and maintainability were enhanced by dismantling the monolithic application.<br></br>
+ - Managed Services : Operational overhead was decreased by utilizing Azure Functions and Azure SQL Database.<br></br>
 
-Readings :
+Savings on costs : <br></br>
 
- - Database Migration : It was difficult to guarantee data consistency throughout the migration.
- - Reworking Legacy Code : The monolithic program needed extensive reworking because several of its components were closely connected.
- - Learning Curve : It required some time to become acquainted with Azure services and their setups.
+ - Costs were greatly decreased by switching to a pay-as-you-go basis using Azure services.<br></br>
 
-An added benefit is Infrastructure as Code (IaC) :-
+Readings :<br></br>
 
- - Terraform was used to implement IaC and automate the refactored application's deployment.
- - Terraform scripts can be found in this repository's infrastructure subdirectory.
+ - Database Migration : It was difficult to guarantee data consistency throughout the migration.<br></br>
+ - Reworking Legacy Code : The monolithic program needed extensive reworking because several of its components were closely connected.<br></br>
+ - Learning Curve : It required some time to become acquainted with Azure services and their setups.<br></br>
+
+An added benefit is Infrastructure as Code (IaC) :-<br></br>
+
+ - Terraform was used to implement IaC and automate the refactored application's deployment.<br></br>
+ - Terraform scripts can be found in this repository's infrastructure subdirectory.<br></br>
