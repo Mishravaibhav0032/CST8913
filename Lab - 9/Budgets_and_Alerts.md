@@ -7,7 +7,7 @@
 - **Budget Limit:** **$50.00 USD**
 - **Created On:** 2025-03-15
 
-![Budget Summary](images/budget_summary.png)
+![Image](https://github.com/user-attachments/assets/3be767ee-3846-4bc4-8f3d-faa95fd75233)
 
 ## Alert Configuration
 ### **50% Usage Alert**
