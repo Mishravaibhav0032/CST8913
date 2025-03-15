@@ -20,7 +20,7 @@
 - **Notification Type:** Email
 - **Recipient:** mish0032@algonquinlive.com
 
-![Alert Thresholds](images/alert_thresholds.png)
+![Image](https://github.com/user-attachments/assets/e98771d6-1985-4089-b41d-f0a41beb4076)
 
 ## Notes
 - Alerts will notify via email when usage reaches 50% and 90%.
