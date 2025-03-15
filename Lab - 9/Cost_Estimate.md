@@ -9,10 +9,10 @@ and the costs are in **USD** for the **Canada Central** region.
 
 This cloud architecture will have:
 
-✔ **Frontend**: 1 Virtual Machine (**B2s**, 2 vCPUs, 4GB RAM, 64GB storage)
-✔ **Backend**: 1 Virtual Machine (**D2s_v3**, 2 vCPUs, 8GB RAM, 128GB storage)
-✔ **Database**: Azure **SQL Database** (Standard **S0**, 10 DTUs, 250GB storage)
-✔ **Networking**: **200 GB outbound data transfer** via Microsoft Global Network
+**Frontend**: 1 Virtual Machine (**B2s**, 2 vCPUs, 4GB RAM, 64GB storage)<p></p>
+**Backend**: 1 Virtual Machine (**D2s_v3**, 2 vCPUs, 8GB RAM, 128GB storage)<p></p>
+**Database**: Azure **SQL Database** (Standard **S0**, 10 DTUs, 250GB storage)<p></p>
+**Networking**: **200 GB outbound data transfer** via Microsoft Global Network<p></p>
 
 ---
 ## **Frontend VM Configuration**
@@ -26,7 +26,7 @@ This cloud architecture will have:
 | **Network** | 5 GB outbound data transfer (Inter Region) |
 
 ---
-##**Backend VM Configuration**
+## **Backend VM Configuration**
 | Parameter       | Value |
 |----------------|------------------------------------------------|
 | **Service Type** | Virtual Machines |
@@ -44,7 +44,7 @@ This cloud architecture will have:
 | **Description** | Internet egress, **200 GB outbound data transfer** |
 | **Routed via** | Microsoft Global Network
 
-## ** Database Configuration**
+## **Database Configuration**
 | Parameter       | Value |
 |----------------|------------------------------------------------|
 | **Service Type** | Azure SQL Database |
