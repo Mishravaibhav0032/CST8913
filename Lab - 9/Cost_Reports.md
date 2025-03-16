@@ -1,4 +1,5 @@
-## Cost_Reports.md
+## Cost Reports :- 
+<p></p>
 |UsageDate |ServiceName     |CostUSD              |Cost                 |Currency|
 |----------|----------------|---------------------|---------------------|--------|
 |2025-02-01|Azure Bastion   |4.66975719881548     |6.74476381010914     |CAD     |
