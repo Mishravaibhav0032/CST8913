@@ -11,7 +11,7 @@ The following tags are applied to all deployed resources to improve governance a
 | Environment  | Test      | Identifies the resource as part of a testing environment |
 | Department   | IT        | Associates the resource with the IT department for cost tracking |
 
-
+![Image](https://github.com/user-attachments/assets/a0d983a2-d473-4986-9c47-96e10d35ec02)
 
 ## Best Practices
 - Ensure all resources have the **Environment** and **Department** tags.
