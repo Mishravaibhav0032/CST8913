@@ -1,7 +1,7 @@
 ## Cost Reports :- 
 <p></p>
 
-|UsageDate |ServiceName     |CostUSD              |Cost                 |Currency|
+|UsageDate |ServiceName     |Cost USD              |Cost CAD                |Currency|
 |----------|----------------|---------------------|---------------------|--------|
 |2025-02-01|Azure Bastion   |4.66975719881548     |6.74476381010914     |CAD     |
 |2025-02-01|Azure DNS       |0.0164077434289128   |0.0236985242215502   |CAD     |
