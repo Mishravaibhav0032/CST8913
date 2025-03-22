@@ -2,7 +2,7 @@
 
 ## 1. Definition of a Cloud Landing Zone
 
-A **Cloud Landing Zone** is a secure, in-place, and customizable cloud environment that is designed to host workloads and applications in a cloud platform. A Cloud Landing Zone provides the primary building blocks that consist of networking, identity and access management (IAM), governance, security, and resource organization necessary in providing conformity and compliance to applications when moving to the cloud.
+A **Cloud Landing Zone** is an in-place, secure, and tunable cloud environment that will host workloads and applications in a cloud platform. A Cloud Landing Zone is the foundational building blocks that shape of networking, IAM, governance, security, and resource organization required in the process of providing applications conformity and compliance when migrating to the cloud.
 
 ### Application to Cloud Migration
  By ensuring that the cloud environment follows enterprise standards and best practices from the beginning, a landing zone serves to **simplify the migration** process.  It enables enterprises to swiftly and safely deploy workloads, prevents common configuration problems, and upholds control.
@@ -13,7 +13,6 @@ A **Cloud Landing Zone** is a secure, in-place, and customizable cloud environme
  **Modularity**: Provides flexibility by enabling plug-and-play component integration.
  **Security**: Implements security baselines for the entire enterprise.
  **Governance**: Enforces policy and compliance requirements automatically.
- Infrastructure-as-code is used in automation to ensure consistent deployment.
 
  ---
 
@@ -24,9 +23,8 @@ A **Cloud Landing Zone** is a secure, in-place, and customizable cloud environme
 
 | Type                     | Description                                                                                                             | Use Case Example                                                                                             |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Landing Zone for Platforms**  | For all workloads, it offers essential infrastructure and shared services including networking, IAM, logging, and monitoring. | Perfect for establishing the foundational environment prior to workload deployment.                         |
-| **Application Landing Zone**    | Customized environment created for a particular business unit or application, tailored to meet specific workload requirements. | Used when deploying or migrating a particular application with specific performance or compliance requirements. |
-
+| **Platform Landing Zone**  | Offers required infrastructure and shared services for all workloads like networking, IAM, logging, and monitoring. | Suitable for establishing the foundation environment prior to workload deployment.                         |
+| **Application Landing Zone**    | Custom environment provisioned for a specific business unit or application to meet specific workload requirements. | Use when deploying or moving a particular application with some specific performance or compliance requirements. |
 
  ### before to Use: **Platform Landing Zone**: To create a standardized and controlled base environment before starting a large-scale cloud migration project.
  **Application Landing Zone**: When a particular application with special operational or security needs is onboarded once the platform is prepared.
