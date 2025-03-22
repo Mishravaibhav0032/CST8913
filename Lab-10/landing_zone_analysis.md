@@ -22,8 +22,11 @@ A **Cloud Landing Zone** refers to an in-place, secure, and modifiable cloud con
  ### Landing Zones for Platforms and Applications
 
 
- | Type | Description | Use Case Example | Use Case Example | ---------------------------|---------------------------------------------------------------— ------------------ |
- **Landing Zone for Platforms**  For all workloads, it offers essential infrastructure and shared services including networking, IAM, logging, and monitoring.  Perfect for establishing the foundational environment prior to workload deployment. | **Application Landing Zone** | Customized environment created for a particular business unit or application, tailored to meet specific workload requirements. | Used when deploying or migrating a particular application with specific performance or compliance requirements.
+| Type                     | Description                                                                                                             | Use Case Example                                                                                             |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Landing Zone for Platforms**  | For all workloads, it offers essential infrastructure and shared services including networking, IAM, logging, and monitoring. | Perfect for establishing the foundational environment prior to workload deployment.                         |
+| **Application Landing Zone**    | Customized environment created for a particular business unit or application, tailored to meet specific workload requirements. | Used when deploying or migrating a particular application with specific performance or compliance requirements. |
+
 
  ### before to Use: **Platform Landing Zone**: To create a standardized and controlled base environment before starting a large-scale cloud migration project.
  **Application Landing Zone**: When a particular application with special operational or security needs is onboarded once the platform is prepared.
