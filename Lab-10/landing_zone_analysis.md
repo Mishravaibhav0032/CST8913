@@ -2,7 +2,7 @@
 
 ## 1. Definition of a Cloud Landing Zone
 
-A **Cloud Landing Zone** refers to an in-place, secure, and modifiable cloud configuration designed to house applications and workloads in a cloud platform. A Cloud Landing Zone provides the primary building blocks that consist of networking, identity and access management (IAM), governance, security, and organization of resources that are necessary in providing conformity and compliance to applications during cloud migration.
+A **Cloud Landing Zone** is a secure, in-place, and customizable cloud environment that is designed to host workloads and applications in a cloud platform. A Cloud Landing Zone provides the primary building blocks that consist of networking, identity and access management (IAM), governance, security, and resource organization necessary in providing conformity and compliance to applications when moving to the cloud.
 
 ### Application to Cloud Migration
  By ensuring that the cloud environment follows enterprise standards and best practices from the beginning, a landing zone serves to **simplify the migration** process.  It enables enterprises to swiftly and safely deploy workloads, prevents common configuration problems, and upholds control.
